@@ -1,0 +1,110 @@
+body{
+    background: linear-gradient(190deg,#6b28d6,#9b4de0);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.slider{
+    appearance: none;
+    color: aqua;
+    width: 80%;
+    height: 8px;
+    margin: 15px 0;
+    background: #670ad8; /* Dark purple track */
+    border-radius: 5px;
+    /* outline: none; */
+    cursor: pointer;
+    transition: background 0.3s;
+
+}
+.container{
+    color: white;
+    background: #0d021f;
+    /* padding: 30px 25px; */
+    max-width: 400px;
+    width: 100%;
+    /* text-align: center; */
+    /* padding: auto; */
+    padding: 10px;
+    /* text-align: center; */
+    border-radius: 10px;
+}
+.extra{
+    margin-right: 57px;
+}
+
+h1{
+    padding-left: 5px;
+    font-weight: 1000;
+    font-size: xx-large;
+    font-size: 30px;
+}
+.display-container{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1b1039;
+    overflow: hidden;
+
+}
+
+.display {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(208, 165, 99);
+    border: none;
+    background: transparent;
+    flex-grow: 1;
+}
+
+ 
+button[data-copy] {
+    /* background: transparent;
+    border: none;
+    color: #00cec9;
+    cursor: pointer; */
+    font-size: 20px;
+}
+
+.length-container{
+    display:flex ;
+    gap: 30px;
+}
+
+.input-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.generateButton:hover{
+background-color: #00cec9;
+transform: scale3d(2);
+border-radius: 5px;
+}
+
+[data-indicator] {
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.strength-container{
+    /* display: inline; */
+    display: flex;
+    gap: 300px;
+}
+
+.apbt{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 2px;
+}
